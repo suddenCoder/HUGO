@@ -10,6 +10,28 @@ collections:
     folder: "content/posts"
     create: true
     fields:
+
+      - label: "Title"
+        name: "title"
+        widget: "string"
+
+      - label: "Publish Date"
+        name: "date"
+        required: false
+        widget: "datetime"
+
+      - label: "Draft"
+        name: "draft"
+        required: false
+        widget: "boolean"
+        default: true
+
+          - name: "posts"
+
+    label: "Page"
+    folder: "content"
+    create: true
+    fields:
       
       - label: "Title"
         name: "title"
