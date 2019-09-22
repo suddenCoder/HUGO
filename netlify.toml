@@ -1,5 +1,5 @@
 [build.environment]
-HUGO_VERSION = "0.33"
+HUGO_VERSION = "0.58.3"
 
 [build]
   command = "hugo"
